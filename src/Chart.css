@@ -1,0 +1,44 @@
+#svgContainer {
+  width: 60vw;
+  width: 60%;
+  height: 40vh;
+  height: 280px;
+  margin: 0 auto;
+
+  margin-bottom: 120px;
+  margin-top: 20px;
+}
+
+hr {
+  margin: 4px auto;
+}
+
+#svgSelf {
+  padding: 40px;
+
+  /* force bootstrap default border-box */
+  box-sizing: content-box;
+}
+
+/* https://icolorpalette.com/color?q=bc5090 */
+
+.info {
+  background: rgb(119, 119, 21);
+  background: #bc5090;
+  border-radius: 8px;
+  padding: 4px;
+  text-align: center;
+  min-width: 60px;
+  transition: 0.2s;
+  color: white;
+}
+
+.tick line {
+  stroke: #d797bd;
+  stroke-width: 0.25px;
+  stroke-dasharray: 2.5;
+}
+
+.tick text {
+  color: #762d58;
+}
