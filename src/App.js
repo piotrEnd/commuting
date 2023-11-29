@@ -131,7 +131,7 @@ function App() {
           <Col xs={6} sm={6} className="my-auto d-inline justify-content-end w-sm-33 w-lg-25 form-col-left">
             <Form.Group className="my-3" controlId="validationCustom01">
               <Form.Label>fuel price per 1 liter</Form.Label>
-              <Form.Control required type="number" step="0.1" name="price" placeholder="in euro (€)" value={refueling.price} onChange={handleChange} />
+              <Form.Control required type="number" step="0.01" name="price" placeholder="in euro (€)" value={refueling.price} onChange={handleChange} />
               <Form.Control.Feedback>seems all right</Form.Control.Feedback>
               <Form.Control.Feedback type="invalid">not a valid amount (number)</Form.Control.Feedback>
             </Form.Group>
